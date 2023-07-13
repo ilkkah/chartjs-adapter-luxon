@@ -29,7 +29,7 @@ export default [
     ],
     output: {
       name,
-      file: 'dist/chartjs-adapter-luxon.umd.js',
+      file: 'dist/chartjs-adapter-luxon.umd.cjs',
       banner,
       format: 'umd',
       indent: false,
@@ -49,7 +49,7 @@ export default [
     ],
     output: {
       name,
-      file: 'dist/chartjs-adapter-luxon.umd.min.js',
+      file: 'dist/chartjs-adapter-luxon.umd.min.cjs',
       format: 'umd',
       indent: false,
       globals
